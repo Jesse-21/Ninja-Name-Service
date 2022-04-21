@@ -35,7 +35,7 @@ contract Domains is ERC721URIStorage {
     // We make the contract "payable" by adding this to the constructor
     constructor(string memory _tld)
         payable
-        ERC721("Ninja Name Service", "NNS")
+        ERC721("OF1 Name Service", "OF1NS")
     {
         owner = payable(msg.sender);
         tld = _tld;
@@ -97,7 +97,7 @@ contract Domains is ERC721URIStorage {
                     abi.encodePacked(
                         '{"name": "',
                         _name,
-                        '", "description": "A domain on the Ninja name service", "image": "data:image/svg+xml;base64,',
+                        '", "description": "A domain on the OF1 name service", "image": "data:image/svg+xml;base64,',
                         Base64.encode(bytes(finalSvg)),
                         '","length":"',
                         strLen,
