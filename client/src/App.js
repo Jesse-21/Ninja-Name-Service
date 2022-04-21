@@ -8,10 +8,10 @@ import { networks } from "./utils/networks";
 import contractAbi from "./contracts/contracts/Domains.sol/Domains.json";
 
 // Constants
-const TWITTER_HANDLE = "YSoenggoro";
+const TWITTER_HANDLE = "of1nft";
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 // Add the domain you will be minting
-const tld = ".ninja";
+const tld = ".of1";
 const CONTRACT_ADDRESS = "0xaC0B3A99a91181d0C420DA3F8512Fa919216501f";
 
 const App = () => {
@@ -266,8 +266,8 @@ const App = () => {
         <div className="header-container">
           <header>
             <div className="left">
-              <p className="title">🐱‍👤 Ninja Name Service</p>
-              <p className="subtitle">Your immortal API on the blockchain!</p>
+              <p className="title">OF1 Name Service</p>
+              <p className="subtitle">Your immortal domain service on the polygon!</p>
             </div>
             {/* Display a logo and wallet connection status*/}
             <div className="right">
@@ -329,7 +329,7 @@ const App = () => {
               <input
                 type="text"
                 value={record}
-                placeholder="whats ur ninja power?"
+                placeholder="whats ur super power?"
                 onChange={(e) => setRecord(e.target.value)}
               />
               {editing ? (
