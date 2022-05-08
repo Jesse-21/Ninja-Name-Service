@@ -267,7 +267,7 @@ const App = () => {
           <header>
             <div className="left">
               <p className="title">OF1 Name Service</p>
-              <p className="subtitle">Your immortal domain service on the polygon!</p>
+              <p className="subtitle">Your immortal domain service on polygon!</p>
             </div>
             {/* Display a logo and wallet connection status*/}
             <div className="right">
@@ -329,7 +329,7 @@ const App = () => {
               <input
                 type="text"
                 value={record}
-                placeholder="whats ur super power?"
+                placeholder="choose your name"
                 onChange={(e) => setRecord(e.target.value)}
               />
               {editing ? (
